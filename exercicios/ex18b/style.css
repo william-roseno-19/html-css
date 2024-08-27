@@ -1,0 +1,22 @@
+@charset 'UTF-8';
+*{
+    /* winght 100%*/
+font-family: 'spider';
+
+}
+main{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    padding: 10px;
+  
+}
+body{
+    background-image: linear-gradient(#7ffbdb, #9afce4, #b5fded, #cffef6, #eaffff);
+   
+
+   
+
+}

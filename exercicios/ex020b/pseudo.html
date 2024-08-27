@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de pseudo-elemento</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        a{
+            color: purple;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: blue;
+        }
+        a:visited{
+            color: rgb(138, 103, 103);
+        }
+        .especial::before{
+            content:'\2192';
+        }
+        .especial::after{
+            content: '\2190';
+            /*para adicionar setas, o código é escrito com numeros ou numeros com lentras*/
+        }
+        .mega-especial::before{
+            content: '\21E8';
+        }
+        .mega-especial::after{
+            content: '\21E6';
+        }
+        .ultra-especial::before{
+            content:'\21DB';
+        }
+        .ultra-especial::after{
+            content: '\21DA';
+        }
+    </style>
+</head>
+<body>
+    <H1>testando elementos</H1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=_g1_mG6Ru3M" class="especial">PHONK</a></li>
+        <li><a href="https://www.youtube.com/watch?v=H5v3kku4y6Q" class="mega-especial">POP</a></li>
+        <li><a href="https://www.youtube.com/watch?v=28NVHy00VOc" class="ultra-especial">ANIME TRAP</a></li>
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{/*BLOCK-LEVEL*/
+
+            background-color: aqua;
+            width: 315px;
+            height: 76px;
+
+           /* MODO COMPLETO
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgb(35, 139, 105);
+            */
+
+           /*MODO SIMPLIFICADO- shorthand*/
+            border: 10px solid darkgreen;
+            
+
+            /*MODO COMPLETO
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;*/
+
+            /*MODO SIMPLIFICADO- shorthand*/
+            padding: 10px ;
+
+            /*MODO COMPLETO
+            margin: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin: auto;*/
+            
+            /*MODO SIMPLIFICADO- shorthand*/
+            margin: auto;
+
+            /*MODO COMPLETO
+            outline-width: 5px;
+            outline-color: magenta;
+            outline-style: dashed;*/
+
+            /*MODO SIMPLIFICADO- shorthand*/
+            outline: 5px magenta dashed;
+        }
+        a{ /*INLINE-LEVEL*/
+
+           /*MODO COMPLETO
+            border-width: 5px;
+            border-color: brown;
+            border-style: solid;*/ 
+
+            /*MODO SIMPLIFICADO- shorthand*/            
+            border: 5px brown solid;
+
+            /*MODO COMPLETO
+            padding-top: 2px;
+            padding-bottom: 2px;
+            padding-left: 2px;
+            padding-right: 2px;*/
+
+            /*MODO SIMPLIFICADO- shorthand*/
+            padding: 2px;
+
+           /*MODO COMPLETO
+            margin: 5px;
+            margin-right: 10px;
+            margin-bottom: 15px;
+            margin-left: 10px;*/ 
+
+            /*MODO SIMPLIFICADO- shorthand*/
+            margin: 5px 10px 10px 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de box-inline</h1>
+    <p>Parágrafos também são exemplos de box-level, mas o <a href="#"> links são exemplos de Caixas inline-level</a> vamos ver como tudo isso funciona.</p>
+</body>
+</html>

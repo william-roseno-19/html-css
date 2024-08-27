@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexicivel">
+    </picture>
+    <h1>Hospedando audio!</h1>
+    <p>Vamos adicionar audio no HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/blackbear-Wanderlust.mp3" type="audio/mpeg">
+        <source src="midia/blackbear-Wanderlust.ogg" type="audio/ogg"> 
+        <source src="midia/blackbear-Wanderlust.wav" type="audio/wav">
+        <p>se seu navegador não conseguir reproduzir o audio, <a href="midia/blackbear-Wanderlust.mp3" clique aqui para baixar o arquivo mp34.></a></p>
+    </audio>
+</body>
+</html>

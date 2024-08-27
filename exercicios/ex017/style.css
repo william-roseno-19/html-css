@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body{
+    font: normal 16px arial, helvetica, serif;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: aqua;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 30px;
+}
