@@ -85,8 +85,8 @@ nav> a:hover{
 
 main{
     background-color: white;
-    min-width: 400px;
-    max-width: 800px;
+    min-width: 300px;
+    max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -134,23 +134,25 @@ main p{
     line-height: 2em;
     font-size: 1em;
 }
+main img{
+    width: 100%;
+}
 
-h2> picture{
- min-width: 300px;
- max-width: 800px;
+.robo{
+ height: 100%;
 }
 
 .android{
+
     margin: auto;
     display: block;
     max-width: 350px;
 
 }
 
-.irina> picture{
-min-width: 400px;
-max-width: 800px;   
-margin: auto;
+.irina{
+height: 100%;  
+
     
 }
 
