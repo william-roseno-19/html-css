@@ -17,8 +17,9 @@
 }
 html, body{
     min-height: 100vh;
-    background-color: cyan;
-    font-family: var(--fonte1);
+    background-color:white;
+    font-family: var(--fonte3);
+    
 }
 
 header{
@@ -68,10 +69,19 @@ section.normal{
     color: #000;
 }
 
+#diferente{
+    line-height: 2em;
+    font-size: 5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: white;
+
+}
+
 section.imagem{
     background-color: darkgreen;
     color: white;
-    box-shadow: inset 6px 13px 0px black;
+    box-shadow:inset 5px 5px 10px 0px black;
     background-attachment: fixed;
    
 }
@@ -100,4 +110,5 @@ footer{
     text-align: center;
     color: white;
     padding: 10px;
+    font-family: var(--fonte1);
 }
