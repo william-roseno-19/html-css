@@ -1,0 +1,76 @@
+@charset "UTF8";
+
+*{
+    margin: auto;
+    padding: auto;
+}
+
+html, body{
+    background-image: url(../imagens/imagem.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    
+   
+
+}
+header{
+    background-image: linear-gradient(to right, #5f4b8b, #313b64, #8f85d8, #8e6385, #553862);
+    border-radius: 10px 10px 0px 0px ;
+    padding-top: 10px;
+    min-height: 150px;
+
+
+    
+}
+header> h1{
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+section{
+  padding-left: 10px;
+  padding-top: 10vh;
+  line-height: 2em;
+  padding-bottom: 10vh;
+}
+
+section> p{
+    font-size: 2em;
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background-color: darkmagenta;
+    background-image: url(../imagens/imagem03.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    color: white;
+    box-shadow: inset 5px 5px 10px 0px black;
+    
+
+}
+
+.normal> p{
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 400px;
+    padding-left: 5px;
+    border-radius: 10px;
+   
+}
+
+section.diferente> p{
+    background-color: rgba(0, 0, 0, 0.158);
+    width: 400px;
+    border-radius: 10px;
+    
+}
+
+footer{
+    background-color: blueviolet;
+    padding-top: 10px;
+    text-align: center;
+}
